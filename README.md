@@ -27,7 +27,7 @@ classify_model()
 # model: or use your own model
 # dim: feature dimension after using Umap, we recommend setting is to 3 
 # SVM_nu: we are using the rbf kernel for SVM. This parameter is an upper bound on the fraction of training 
-          errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. By default 0.03 will be taken.
+          #errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. By default 0.03 will be taken.
 # templates_path: the path of your template dataset folder, which should only contain the positive(cancerous) images.
 # val_path: the path of your validation dataset folder, which should contain both positive and negative images.
 # unknown_path: the path of the dataset that you want to classify, which will be divided into two categories 
