@@ -44,6 +44,7 @@ classify_model()
    `$ conda activate my_env`
 
 3. Install required package:
+
    install_requires=[
         "torch",
         "torchvision",
