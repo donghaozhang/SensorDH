@@ -38,9 +38,11 @@ classify_model()
 
 ### Setup a python3 environment for octid
 1. Create environment with conda:  
+
    `$ conda create -n my_env python=3`
 
 2. Activate the environment with conda:  
+
    `$ conda activate my_env`
 
 3. Install required package:
