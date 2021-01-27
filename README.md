@@ -57,6 +57,8 @@ classify_model()
 
 7. unknown_path: the path of the dataset that you want to classify, which will be divided into two categories and placed in two folders after running our classify model
 
+8. Dataset folders notes: since we are using the [torchvision.datasets.ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) to label the image, please follow the way to creat your image folders. And the image should be cut dowm to small images such as 500 by 500, not the original medical micro image.
+
 ### Setup a python3 environment for octid
 1. Create environment with conda:  
 
