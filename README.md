@@ -43,20 +43,19 @@ classify_model()
 ```
 
 ### Parameters
-model_name: you can use [pretrained torchvision models](https://pytorch.org/docs/stable/torchvision/models.html)
+1. model_name: you can use [pretrained torchvision models](https://pytorch.org/docs/stable/torchvision/models.html)  
 
-model: or use your own model
+2. model: or use your own model
 
-dim: feature dimension after using Umap, we recommend setting is to 3
+3. dim: feature dimension after using Umap, we recommend setting is to 3
 
-SVM_nu: we are using the rbf kernel for SVM. This parameter is an upper bound on the fraction of training errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. By default 0.03 will be taken.
+4. SVM_nu: we are using the rbf kernel for SVM. This parameter is an upper bound on the fraction of training errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. By default 0.03 will be taken.
 
-templates_path: the path of your template dataset folder, which should only contain the positive(cancerous) images.
+5. templates_path: the path of your template dataset folder, which should only contain the positive(cancerous) images.
 
-val_path: the path of your validation dataset folder, which should contain both positive and negative images.
+6. val_path: the path of your validation dataset folder, which should contain both positive and negative images.
 
-unknown_path: the path of the dataset that you want to classify, which will be divided into two categories and placed in two folders after running our classify model
-
+7. unknown_path: the path of the dataset that you want to classify, which will be divided into two categories and placed in two folders after running our classify model
 
 ### Setup a python3 environment for octid
 1. Create environment with conda:  
