@@ -42,6 +42,22 @@ classify_model()
 # Dataset folders notes: since we are using the [torchvision.datasets.ImageFolder](https://pytorch.org/docs/stable/torchvision/datasets.html#imagefolder) to label the image, please follow the way to creat your image folders. And the image should be cut dowm to small images such as 500 by 500, not the original medical micro image.
 ```
 
+### Parameters
+model_name: you can use [pretrained torchvision models](https://pytorch.org/docs/stable/torchvision/models.html)
+
+model: or use your own model
+
+dim: feature dimension after using Umap, we recommend setting is to 3
+
+SVM_nu: we are using the rbf kernel for SVM. This parameter is an upper bound on the fraction of training errors and a lower bound of the fraction of support vectors. Should be in the interval (0, 1]. By default 0.03 will be taken.
+
+templates_path: the path of your template dataset folder, which should only contain the positive(cancerous) images.
+
+val_path: the path of your validation dataset folder, which should contain both positive and negative images.
+
+unknown_path: the path of the dataset that you want to classify, which will be divided into two categories and placed in two folders after running our classify model
+
+
 ### Setup a python3 environment for octid
 1. Create environment with conda:  
 
