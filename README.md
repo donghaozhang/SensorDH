@@ -1,7 +1,7 @@
 
 # OCTID: One-Class learning-based tool for Tumor Image Detection
 
-OCTID is a novel Python package, which utilizes a pre-trained CNN model, UMAP, and one-class SVM for cancerous image detection based on the partially annotated dataset. OCTID can capture patterns from theavailable  normal  WSIs  to  identify  and  remove  normal  tiles  from  thetraining dataset. By using OCTID, researchers without pathologyknowledge can select the cancerous images based on the readily availabledata. Utilizing the power of machine learning, OCTID can conduct image pre-processing easily on the large-scale dataset.
+OCTID is a novel Python package, which utilizes a pre-trained CNN model, UMAP, and one-class SVM for cancerous image detection based on the partially annotated dataset. OCTID can capture patterns from theavailable normal WSIs to identify and remove normal tiles from thetraining dataset. By using OCTID, researchers without pathology knowledge can select the cancerous images based on the readily available data. Utilizing the power of machine learning, OCTID can conduct image pre-processing easily on the large-scale dataset.
 
 ## Getting started
 
